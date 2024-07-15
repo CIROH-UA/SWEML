@@ -31,17 +31,17 @@ General model development used the remaining 25% of the observations to test the
 A hindcast simulation prevents any data leakage from the training data, supports a robust investigation of the expected performance of SWEML in operations, and demonstrates a framework for performing retrospective simulations.
 The below figures represent the results of the hindcast from the 2019 simulation.
 
-![Perf](./Images/Parity_Plot_All4_Hindcast.png)
+![Perf](https://github.com/CIROH-UA/SWEML/blob/main/Images/Parity_Plot_All4_Hindcast.png)
 Figure 2. SWEML estimates for three key snow classification types closely match the observed.
 
-![TablePerf](./Images/ModelPerfTable.JPG)
+![TablePerf](https://github.com/CIROH-UA/SWEML/blob/main/Images/ModelPerfTable.JPG)
 Table 1. SWEML produces high model skill for all regions
 
 
-![Alpine](./Images/Alpine.png)
+![Alpine](https://github.com/CIROH-UA/SWEML/blob/main/Images/Alpine.png)
 Figure 3. Regional average SWE estimates closely match the observations magnitude and timing (e.g., peak SWE, melt)
 
-![Error](./Images/ErrorVsElevation3_Hindcast.png)
+![Error](https://github.com/CIROH-UA/SWEML/blob/main/Images/ErrorVsElevation3_Hindcast.png)
 Figure 4. The error in SWE estimates for the three snow classification types vs. elevation.
 
 
@@ -65,16 +65,16 @@ Aspect and slope angle from the geoJSON data for each grid cell was converted to
 This use case library contains a summary of the motivation behind the project, applicable ML methods and tools, the methods for data preparation, model development including the model training framework and evaluation, workflow management demonstrated using GeoWeaver, links to the complete model on GitHub as the model is data-intensive the tutorial is for a subset of the entire model, a discussion/conclusion, and a solicitation to questions.
 Below are the respective chapters addressing these items:
 
-1. [Motivation](./book/chapters/motivation.ipynb)
-2. [Machine Learning Methods and tools](./book/chapters/methods.ipynb)
-3. [Data Preparation](./book/chapters/data.ipynb)
-4. [Model Development and Parameter Tuning](./book/chapters/development.ipynb)
-5. [Model Training](./book/chapters/training.ipynb)
-6. [Evaluation of Model Performance](./book/chapters/evaluation.ipynb)
-7. [Workflow Management and Cloud Computing](./book/chapters/workflow.ipynb)
-8. [Reproducibility](./book/chapters/reproducibility.ipynb)
-9. [Discussion/Conclusion](./book/chapters/conclusion.ipynb)
-10. [Solicitation to Questions](./book/chapters/questions.ipynb)
+1. [Motivation](https://github.com/CIROH-UA/SWEML/blob/main/book/chapters/motivation.ipynb)
+2. [Machine Learning Methods and tools](https://github.com/CIROH-UA/SWEML/blob/main/book/chapters/methods.ipynb)
+3. [Data Preparation](https://github.com/CIROH-UA/SWEML/blob/main/book/chapters/data.ipynb)
+4. [Model Development and Parameter Tuning](https://github.com/CIROH-UA/SWEML/blob/main/book/chapters/development.ipynb)
+5. [Model Training](https://github.com/CIROH-UA/SWEML/blob/main/book/chapters/training.ipynb)
+6. [Evaluation of Model Performance](https://github.com/CIROH-UA/SWEML/blob/main/book/chapters/evaluation.ipynb)
+7. [Workflow Management and Cloud Computing](https://github.com/CIROH-UA/SWEML/blob/main/book/chapters/workflow.ipynb)
+8. [Reproducibility](https://github.com/CIROH-UA/SWEML/blob/main/book/chapters/reproducibility.ipynb)
+9. [Discussion/Conclusion](https://github.com/CIROH-UA/SWEML/blob/main/book/chapters/conclusion.ipynb)
+10. [Solicitation to Questions](https://github.com/CIROH-UA/SWEML/blob/main/book/chapters/questions.ipynb)
 
 
 ## Dependencies (versions, environments)
